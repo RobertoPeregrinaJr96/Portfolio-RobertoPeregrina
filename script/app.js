@@ -1,13 +1,11 @@
-const bulletPoints = document.querySelector("bullet-points")
+const items = document.querySelectorAll("#infoPoints > li");
 
 function toggleDone(e) {
-    if (!e.target.className) {
-        e.target.className = "info-points";
-    } else {
-        e.target.className = "";
-    }
+    console.log(e.target.classList)
+    e.target.classList.toggle("infoPoints-post");
 }
 
-listItems.forEach((item) => {
+items.forEach((item) => {
     item.addEventListener("click", toggleDone);
 });
+

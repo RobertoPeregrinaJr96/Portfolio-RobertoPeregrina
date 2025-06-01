@@ -1,5 +1,17 @@
-.info-points :hover {
-    color: darkseagreen;
-    text-decoration: line-through solid black 2px;
+.infoPoints-pre {
+    color: black;
+    cursor: pointer;
+    display: flex;
+    gap: 2rem;
+}
 
+.infoPoints-post {
+    color: gray;
+    text-decoration: line-through;
+    cursor: pointer;
+}
+
+.info-done {
+    color: rgb(124, 58, 58);
+    text-decoration: line-through;
 }
